@@ -1,0 +1,331 @@
+
+ 	*{
+ 		font-family: Helvetica, sans-serif;
+ 	}
+
+ 	.header{
+    top: 0;
+ 		margin: 0px auto;
+    padding-top: 10px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .175);
+ 	}
+
+  img {
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+
+  li {
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    margin: 10px auto;
+    margin-bottom: 5px;
+    display: none;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    margin-top: 0;
+  }
+
+  h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 100;
+  }
+
+  h4 {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #333;
+  }
+
+  p {
+    color: #4c4c4c;
+    font-size: 1.05em;
+    font-weight: 200;
+  }
+
+ 	.header h1{
+    font-family: 'Futura', sans-serif;
+    font-size: 2em;
+    font-weight: 10;
+    color: #333;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ 	}
+
+
+
+  .portfolio {
+    color: black;
+    margin: 10px 50px;
+    margin-left: 20%;
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    /*padding-bottom: 80%;*/
+  }
+
+  .about {
+    color: black;
+    margin: 10px 50px;
+    margin-right: 20%;
+    margin-left: 0px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 0;
+    float: right;
+  }
+
+  .content {
+    margin: 0 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 105px;
+    clear: both;
+  }
+
+  .mobile-footer {
+    display: block;
+    position: relative;
+    margin-top: 20%;
+    bottom: 0px;
+  }
+
+  .mobile-footer p {
+    text-align: center;
+  }
+
+  .desktop-footer {
+    display: none;
+  }
+
+  .org {
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 2px;
+    margin-right: 4px;
+    background-color: rgba(20,50,90,0.7);
+    color: white;
+  }
+
+  .thing {
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .gallery {
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #recent {
+    width: 100%;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .desc {
+    margin-top: 0;
+    padding: 0 20px;
+    font-size: 0.9em;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .l {
+    position: relative;
+    float: left;
+    left: 0px;
+  }
+
+  .r {
+    position: relative;
+    float: right;
+    right: 0px;
+  }
+
+  @media (min-width: 768px) {
+
+    .l {
+      position: relative;
+      left: 0px;
+    }
+
+    .r {
+      position: relative;
+      right: 0px;
+    }
+    .desc {
+      font-size: 1.1em;
+    }
+
+    #recent {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .header {
+      width: 250px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+    }
+
+    .header h1 {
+      padding: 10% 0;
+    }
+
+    .content {
+      margin-left: 250px;
+      margin-top: 0;
+    }
+
+    .portfolio {
+      margin: 10% auto;
+      float: none;
+
+    }
+
+    ul {
+      font-size: 1.2em;
+    }
+    li {
+      display: block;
+    }
+
+    .about {
+      margin: 20% auto;
+      float: none;
+    }
+
+    h3 {
+      font-size: 2.3em;
+    }
+
+    h4 {
+      font-size: 1.5em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    .mobile-footer {
+      display: none;
+    }
+
+    .desktop-footer {
+      position: absolute;
+      bottom: 25px;
+      display: block;
+      padding: 0 15%;
+    }
+
+    .desktop-footer p {
+      font-weight: 100;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 1em;
+      margin: 10px auto;
+      margin-bottom: 5px;
+    }
+
+    .thing {
+      margin-bottom: 40px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .gallery {
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+  }
+
+  @media (min-width: 1000px) {
+
+    #recent {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .thing {
+      margin-left: 0%;
+      margin-right: 0%;
+      display: inline-block;
+      width: 45%;
+    }
+
+    .gallery {
+      margin-left: 0%;
+      margin-right: 0%;
+      display: inline-block;
+      width: 45%;
+    }
+
+    .left {
+      position: relative;
+      left: 30px;
+    }
+
+    .right {
+      position: relative;
+      right: -60px;
+    }
+
+    h3 {
+      font-weight: 50;
+      font-size: 2.6em;
+    }
+
+    .l {
+      position: relative;
+      float: left;
+      left: 4%;
+    }
+
+    .r {
+      position: relative;
+      float: right;
+      right: 4%;
+  }
+  }
