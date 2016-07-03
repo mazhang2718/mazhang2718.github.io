@@ -14,6 +14,8 @@
 
   		<link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/style.css">
+      <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <script src ="js/script.js" ></script>
 
   	</head>
 
@@ -27,34 +29,75 @@
       			<a href = "index.html"> <h1> MATTHEW ZHANG </h1> </a>
           </div>
 
-    			<nav class="nav">
+    			<nav class="desktop-nav">
 
             <ul class="portfolio">
 
               <h2> PORTFOLIO </h2>
 
-              <li> Art </li>
+              <div class="vis">
+              <li> <a href="art.html"> Art </a></li>
               <li> <a href="code.html"> Code </a> </li>
-              <li> Games </li>
-              <li> Music </li>
+              <li> <a href="games.html"> Games </a></li>
+              <li> <a href = "music.html"> Music </a></li>
               <li> <a href="photography.html"> Photography </a> </li>
-              <li> Video </li>
-
+              <li> <a href="video.html"> Video </a> </li>
+              </div>
             </ul>
 
             <ul class="about">
 
-              <h2> ABOUT </h2>
+              <h2 >ABOUT</h2>
 
-              <li> About </li>
+              <li><a href="about.html"> About </a></li>
               <li> Resume </li>
-              <li> Contact </li>
-
+              <li> <a href="contact.html"> Contact </a></li>
+         
     				</ul>
 
     			</nav>
 
+
+
+          <nav class="mobile-nav">
+
+              <ul class="portfolio">
+              <div class="dropdown">
+                <h2 onclick="myFunction()" class="dropbtn">PORTFOLIO</h2>
+                <div id="myDropdown" class="dropdown-content">
+                    <li> <a href="art.html"> Art </a></li>
+                    <li> <a href="code.html"> Code </a> </li>
+                    <li> <a href="games.html"> Games </a></li>
+                    <li> <a href = "music.html"> Music </a></li>
+                    <li> <a href="photography.html"> Photography </a> </li>
+                    <li> <a href="video.html"> Video </a> </li>
+                </div>
+              </div>
+              </ul>
+
+              <ul class="about">
+
+                <h2 onclick="myFunction()" class="dropbtn">ABOUT</h2>
+
+                <div id="myDropdown1" class="dropdown-content">
+                <li><a href="about.html"> About </a></li>
+                <li> Resume </li>
+                <li> <a href="contact.html"> Contact </a></li>
+                </div>
+
+              </ul>
+
+          </nav>
+
+
+
           <footer class="desktop-footer">
+              <ul class="social">
+                <li><a href="mailto:mazhang2718@gmail.com" ><i class="icon-envelope"></i></a></li>
+                <li><a href="https://twitter.com/_mazhang" target="_blank"><i class="icon-twitter-sign"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/matthew-zhang-555a6098?trk=hp-identity-name" target="_blank"><i class="icon-linkedin-sign"></i></a></li>
+                <li><a href="http://www.github.com/mazhang2718" target="_blank"><i class="icon-github-sign"></i></a></li>
+              </ul>
             <p> Dev + Design: Matthew Zhang </p>
           </footer>
 
@@ -68,15 +111,23 @@
           <h3> Latest Thing </h3>
           <div id ="recent">
 
-            <a href="http://www.northbynorthwestern.com/story/when-should-you-do-laundry/"><img src="img/laundry.png" /></a>
-            <h4> When should you do laundry? </h4>
-            <p> <span class="org"> NBN </span> Take two of visualizing Northwestern's busiest facilities: this time, the laundry machines. I used a Python scraper to retrieve the data from LaundryView, then built the visualization with d3. </p>
+            <a href="http://www.northbynorthwestern.com/story/when-should-you-do-laundry/" target="_blank"><img src="img/laundry.png" /> <h4> When should you do laundry? </h4></a>
+           
+            <p> <span class="org"> NBN </span> Take two of visualizing Northwestern's busiest facilities: this time, the laundry machines. I used (my very first!) Python scraper to retrieve the data from LaundryView, then built the visualization with d3. </p>
           </div>
 
         </div>
 
         <footer class = "mobile-footer">
-          <p> Designed and developed by Matthew Zhang </p>
+          <div class="s">
+              <ul class="social">
+                <li><a href="mailto:mazhang2718@gmail.com" ><i class="icon-envelope"></i></a></li>
+                <li><a href="https://twitter.com/_mazhang" target="_blank"><i class="icon-twitter-sign"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/matthew-zhang-555a6098?trk=hp-identity-name" target="_blank"><i class="icon-linkedin-sign"></i></a></li>
+                <li><a href="http://www.github.com/mazhang2718" target="_blank"><i class="icon-github-sign"></i></a></li>
+              </ul>
+              </div>
+            <p> Dev + Design: Matthew Zhang </p>
         </footer>
 
 

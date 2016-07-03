@@ -3,6 +3,41 @@
  		font-family: Helvetica, sans-serif;
  	}
 
+/* Dropdown Button */
+.dropbtn {
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.mobile-nav {
+  display:block;
+}
+
+.mobile-nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.desktop-nav {
+  display: none;
+}
+
  	.header{
     top: 0;
  		margin: 0px auto;
@@ -30,7 +65,6 @@
     font-size: 0.9em;
     margin: 10px auto;
     margin-bottom: 5px;
-    display: none;
   }
 
   h1 {
@@ -105,7 +139,7 @@
     margin: 0 25px;
     margin-right: 0px;
     margin-left: 0px;
-    margin-top: 105px;
+    margin-top: 75px;
     clear: both;
   }
 
@@ -139,10 +173,17 @@
     margin-right: 5%;
   }
 
+  .nav {
+    margin-top: -7px;
+    margin-bottom: -7px;
+  }
+
   .gallery {
+    position: relative;
     margin-bottom: 10px;
     margin-left: 5%;
     margin-right: 5%;
+    z-index: -5;
   }
 
   #recent {
@@ -158,14 +199,33 @@
     font-size: 0.9em;
   }
 
+.mobile-footer .social{
+  width: 145px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.mobile-footer .social li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+  a {
+    color: rgba(20,100,150,0.7);
+  }
+
+  .header a {
+    color: black;
+  }
+
   a:hover {
     text-decoration: none;
+    color: rgb(20,100,150);
   }
+
 
   .l {
     position: relative;
-    float: left;
-    left: 0px;
   }
 
   .r {
@@ -174,15 +234,40 @@
     right: 0px;
   }
 
+  .gallery img {
+      position: relative;
+      margin-bottom: 10px;
+  }
+
+ul.social li {
+    display: inline;
+    margin: 0 20px 0 0;
+    line-height: 30px;
+}
+
+.social {
+  margin-left: 15px;
+}
+
+.vis {
+  display: none;
+}
+
   @media (min-width: 768px) {
+
+    .vis {
+      display: block;
+    }
 
     .l {
       position: relative;
+      float: left;
       left: 0px;
     }
 
     .r {
       position: relative;
+      float: right;
       right: 0px;
     }
     .desc {
@@ -276,9 +361,29 @@
       margin-right: 5%;
     }
 
+    .gallery img {
+        margin-bottom: 10px;
+    }
+
+    .desktop-nav {
+      display: block;
+    }
+
+    .mobile-nav {
+      display: none;
+    }
+
   }
 
   @media (min-width: 1000px) {
+
+    .desktop-nav {
+      display: block;
+    }
+
+    .mobile-nav {
+      display: none;
+    }
 
     #recent {
       width: 80%;
@@ -298,8 +403,12 @@
     .gallery {
       margin-left: 0%;
       margin-right: 0%;
-      display: inline-block;
+      display: inline;
       width: 45%;
+    }
+
+    .gallery img {
+      margin: 10px auto;
     }
 
     .left {
@@ -319,6 +428,7 @@
 
     .l {
       position: relative;
+      padding-bottom: 10px;
       float: left;
       left: 4%;
     }
