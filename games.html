@@ -1,13 +1,23 @@
 ---
-layout: gallery
+layout: project
 title: Games
 description: "Hopefully some more games will be here soon T_T"
 ---
 
 
-<div class="thing left">
-  <a href="game/Haunted/play.html" target="_blank"><img src="/img/haunted.jpg" / >            <h4> Haunted </h4></a>
+{% for project in site.data.games %}
 
-  <p> <span class="org"> Class </span> A short, interactive fiction game about a haunted house. </p>
-</div>
+  <div class="thing">
+    <a href="{{project.link}}" target="_blank">
+      <img src="img/{{project.image}}" />
+      <h4> {{project.title}} </h4>
+    </a>
 
+    <p> 
+      <span class="org"> {{project.org}} </span>
+      {{project.desc}}
+    </p>
+
+  </div>
+
+{% endfor %}

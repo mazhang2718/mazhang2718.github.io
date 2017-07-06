@@ -4,18 +4,27 @@ title: Photography
 description: "More photos on <a href='https://500px.com/mazhang'target='_blank'>500px</a>."
 ---
 
-<div class="gallery l">
+{% for art in site.data.photos reversed%}
 
-  {% for art in site.data.photoL %}
-    <img src="/img/{{art.image}}"/>
-  {% endfor %}
+	{% if {{art.align}} == "left" %}
+  		<div class="art left">
+  	{% elsif {{art.align}} == "right" %}
+  		<div class="art right">
+  	{% else %}
+  		<div class="art">
+  	{% endif %}
 
-</div>
+	    	<a href="#{{forloop.index}}">
+		  		<img src="/photoStuff/{{art.image}}">
+			</a>
+		</div>
 
-<div class="gallery r">
+	<a href="#_" class="lightbox" id="{{forloop.index}}">
+	  <img src="/photoStuff/{{art.image}}">
+	</a>
 
-  {% for art in site.data.photoR %}
-    <img src="/img/{{art.image}}"/>
-  {% endfor %}
+{% endfor %}
 
-</div>
+
+
+

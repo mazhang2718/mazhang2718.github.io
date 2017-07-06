@@ -1,0 +1,35 @@
+---
+-
+  link: https://www.youtube.com/watch?v=vxsHlybOtbA
+  image: hinman.png
+  title: Hinman Housing Guide
+  desc: I made an introductory video for 1835 Hinman for North by Northwestern's annual fall housing guide.
+  org: NBN
+  type: link
+-
+  link: https://vimeo.com/128298879
+  image: streetbeat.png
+  title: Streetbeat
+  org: Side Project
+  desc: A documentary short made for my Introduction to Media Production class.
+  type: link
+-
+  link: https://vimeo.com/148059252
+  image: righthand.png
+  title: The Right Hand
+  desc: A brief animated short, with music composed by my sister.
+  org: Class
+  type: link
+-
+  link: zadie.mp4
+  title: Zadie Smith @ NU
+  desc: A quick animation I did in a two hours, from a conversation with Zadie Smith at Northwestern.
+  org: Side Project
+  type: embed
+-
+  link: https://vimeo.com/224518329
+  image: rainmov.png
+  title: Rain
+  desc: Short little video of a rainy night outside my apartment, with music that I made.
+  org: Side Project
+  type: link

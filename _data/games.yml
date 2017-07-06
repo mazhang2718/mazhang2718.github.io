@@ -1,0 +1,15 @@
+---
+-
+  link: game/Haunted/play.html
+  image: haunted.jpg
+  title: Haunted
+  desc: A short, interactive fiction game about a haunted house.
+  org: Class
+  tags: Design
+-
+  link: https://mazhang.itch.io/mage-the-slayer?secret=wt1SqukLIXGOvVoMXhtj8OlRgU
+  image: mageslayer.jpg
+  title: Mage the Slayer
+  desc: A puzzle/action game, where the player has to solve puzzles to collect spells, which will ultimately help her defeat an evil demon.
+  org: Class
+  tags: Design

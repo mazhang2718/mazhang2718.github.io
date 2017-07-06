@@ -1,0 +1,145 @@
+---
+-
+  link: http://apps.northbynorthwestern.com/eateries/
+  image: eateries.png
+  title: Northwestern Eateries
+  desc: Helped the current NBN Interactive Editors develop and compile a guide to campus eats.
+  tools: HTML, CSS, JS
+  org: NBN
+  tags: Design
+-
+  link: http://apps.northbynorthwestern.com/emoji-valentines/
+  image: valentine.png
+  title: Valentine's Day Emojis
+  desc: Made a fun little Valentine's Day page with NBN's Life and Style Section.
+  tools: HTML, CSS, JS
+  org: NBN
+  tags: Design
+-
+  link: http://apps.northbynorthwestern.com/nu-transfers/
+  image: transfer.png
+  title: Tracking the transfers 
+  desc: A chord-diagram visualization of Northwestern's interschool transfers.
+  tools: HTML, CSS, JS, d3
+  org: NBN
+  tags: Data
+-
+  link: http://www.northbynorthwestern.com/story/winter-weather-recap/
+  image: weather.png
+  title: Winter weather recap
+  desc: A glance at an unusually warm weather in Evanston. Not a thorough analysis by any means, but just a chance to test out some d3.
+  tools: JS, d3
+  org: NBN
+  tags: Data
+-
+  link: http://apps.northbynorthwestern.com/influential-friend/
+  image: influential.png
+  title: Radio Drama - Influential Friend
+  desc: Developed an audio/text piece with NBN's Writing Section focusing on influential friendships in college. 
+  tools: HTML, CSS, JS
+  org: NBN
+  tags: Design
+-
+  link: http://www.northbynorthwestern.com/story/when-should-you-do-laundry/
+  image: laundry.png
+  title: When should you do laundry?
+  desc: Take two of visualizing Northwestern's busiest facilities - this time, the laundry machines. I used a Python scraper to retrieve the data from LaundryView, then built the visualization with d3.
+  tools: JS, d3
+  org: NBN
+  tags: Data
+-
+  link: http://apps.northbynorthwestern.com/lost-in-translation/
+  image: lostintranslation.png
+  title: Lost in translation
+  desc: I worked with a writer to develop a story focused on students for whom English is not their primary language.
+  tools: HTML, CSS, JS
+  org: NBN
+  tags: Design
+-
+  link: http://www.northbynorthwestern.com/story/when-should-you-go-the-gym/
+  image: gym.png
+  title: When should you go to the gym?
+  desc: An interactive look at the busiest times to go to Northwestern's gyms.
+  tools: JS, d3
+  org: NBN
+  tags: Data
+-
+  link: https://chrome.google.com/webstore/detail/this-is-not-a-normal-todo/kfgbgpcghenjplklaebdnamgkjglclij
+  image: todo.png
+  title: This is Not (a) Normal Todo
+  desc: Chrome extension experiment on motivating myself and others to participate more in civic engagement, in wake of the 2016 election.
+  tools: HTML, CSS, JS, Chrome Web Tools
+  org: Side Project
+  tags: App, Design
+-
+  link: https://github.com/meedan/check-mark
+  image: check.png
+  title: Check Mark
+  desc: Worked with Meedan to build a browser extension that allows users to use Check - Meedan's crowdsourced news verification tool - without navigating to the Check webapp itself.
+  tools: JS, React, Redux, GraphQL, Chrome Web Tools
+  org: Meedan
+  tags: App, Design
+-
+  link: http://marathon.iems.northwestern.edu/chicago2016
+  image: marathon.png
+  title: Chicago Marathon Visualization
+  desc: Working with a team of researchers to develop a data visualization system for the Chicago Marathon using the LAMP stack.
+  tools: HTML, CSS, JS, PHP, Python
+  org: Research
+  tags: App, Design, Data
+-
+  link: http://apps.northbynorthwestern.com/soundscapes/
+  image: soundscapes.jpg
+  title: Northwestern Soundscapes
+  desc: A collection of the everyday sounds on Northwestern's campus. I led the direction of development and audiovisual components.
+  tools: HTML, CSS, JS
+  org: NBN
+  tags: Design
+-
+  link: https://newsounds.herokuapp.com/
+  image: newsounds.gif
+  title: NEWSounds
+  desc: A data sonification experiment. Used Tone.js and other libraries to map the NYT API into sound/music, as well as Node/Express.
+  tools: HTML, CSS, JS, Tone.JS, Node, Express
+  org: Side Project
+  tags: App, Design
+-
+  link: https://github.com/mazhang2718/care-bot
+  image: carebot.gif
+  title: CareBot
+  desc: Built in a day at the Propublica Vital Signs Hackathon, Eunice Lee and I created a Facebook messenger bot that helps college students find mental health specialists nearby. Winner of the best use of the Better Doctor API and the Yelp API.
+  tools: JS, Node, Express, FB Messenger API
+  org: Side Project
+  tags: App, Design
+-
+  link: https://www.texastribune.org/2017/06/21/rideaustin/
+  image: uberviz.png
+  title: RideAustin Analysis
+  desc: Created a visualization pinpointing the drop in RideAustin ridership after Uber and Lyft returned to Texas.
+  tools: JS, d3
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://www.texastribune.org/2017/06/28/seventeen-vacancies-still-open-texas/
+  image: courtvacancies.png
+  title: Court Vacancies
+  desc: Created a visualization of the court vacancies remaining in Texas.
+  tools: JS, d3
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://chrome.google.com/webstore/detail/avocalculator/kmenbojckcdnijlgjmhchdpoplodlekm
+  image: avocalculator.jpg
+  title: Avocalculator
+  desc: Built a Chrome Extension that replaces money with the equivalent number of avocado toasts, since that's what millennials are all into these days.
+  tools: JS, Chrome Web Tools
+  org: Side Project
+  tags: Design, App
+-
+  link: https://github.com/euniceylee/waves
+  image: waves.gif
+  title: Waves
+  desc: Worked with Eunice Lee and Bomani McClendon to design and create Waves, Raspberry Pi project centered around transforming the transience of the spoken word into something concrete and physical. 
+  tools: Python, JS, Node, Raspberry Pi
+  org: Side Project
+  tags: Design, Hardware

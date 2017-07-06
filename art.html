@@ -4,18 +4,24 @@ title: Art
 description: "Doodles I do in my spare time ~ "
 ---
 
-<div class="gallery l">
+  {% for art in site.data.art reversed%}
 
-  {% for art in site.data.artL %}
-    <img src="/img/{{art.image}}"/>
+	{% if {{art.align}} == "left" %}
+  		<div class="art left">
+  	{% elsif {{art.align}} == "right" %}
+  		<div class="art right">
+  	{% else %}
+  		<div class="art">
+  	{% endif %}
+
+	    <a href="#{{forloop.index}}">
+		  <img src="/artStuff/{{art.image}}">
+		</a>
+		
+	</div>
+
+	<a href="#_" class="lightbox" id="{{forloop.index}}">
+	  <img src="/artStuff/{{art.image}}">
+	</a>
+
   {% endfor %}
-
-</div>
-
-<div class="gallery r">
-
-  {% for art in site.data.artR %}
-    <img src="/img/{{art.image}}"/>
-  {% endfor %}
-
-</div>
