@@ -115,7 +115,7 @@ html, body{
 
   #menu li
   {
-    padding: 7px 0;
+    padding: 6px 0;
     font-size: 22px;
   }
 
@@ -219,7 +219,7 @@ a:hover .emoji{
   margin: 0 25px;
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 50px;
+  margin-top: 60px;
   clear: both;
   height: 100%;
 }
