@@ -1,22 +1,41 @@
 <div class="header">
 
-  <div class = "name">
-    <a href = "/"> <h1> MATTHEW ZHANG </h1> </a>
-  </div>
 
   <nav class="desktop-nav">
+
+    <div class = "name">
+      <a href = "/"> <h1> MATTHEW ZHANG </h1> </a>
+    </div>
 
     <ul class="portfolio">
 
       <h2> PORTFOLIO </h2>
 
       <div class="vis">
-            <li> <a href="/art"> Art </a></li>
-            <li> <a href="/code"> Code </a> </li>
-            <li> <a href="/games"> Games </a></li>
-            <li> <a href = "/music"> Music </a></li>
-            <li> <a href="/photography"> Photography </a> </li>
-            <li> <a href="/video"> Video </a> </li>
+            <li> 
+              <a href="/art"> 
+                <span class="emoji"> 🎨 </span>Art<span class="emoji"> 🎨 </span>
+              </a> </li>
+            <li> 
+              <a href="/code"> 
+                <span class="emoji"> 💻 </span>Code<span class="emoji"> 💻 </span>
+              </a> </li>
+            <li> 
+              <a href="/games"> 
+                <span class="emoji"> 🎮 </span>Games<span class="emoji"> 🎮 </span>
+              </a> </li>
+            <li> 
+              <a href="/music"> 
+                <span class="emoji"> 🎶 </span>Music<span class="emoji"> 🎶 </span>
+              </a> </li>
+            <li> 
+              <a href="/photography"> 
+                <span class="emoji"> 📷 </span>Photography<span class="emoji"> 📷 </span>
+              </a> </li>
+            <li>          
+              <a href="/video"> 
+                <span class="emoji"> 📽️ </span>Video<span class="emoji"> 📽️ </span>
+              </a> </li>
       </div>
     </ul>
 
@@ -24,32 +43,72 @@
 
       <h2 >ABOUT</h2>
 
-      <li> <a href="resume.pdf"> Resume </a></li>
+      <li>          
+        <a href="resume.pdf"> 
+          <span class="emoji"> 📄 </span>Resume<span class="emoji"> 📄 </span>
+        </a> </li>
  
     </ul>
 
   </nav>
 
 
+    <nav role="navigation" class="mobile-nav">
 
-  <nav class="mobile-nav">
+       <div class = "name">
+        <a href = "/"> <h1> MATTHEW ZHANG </h1> </a>
 
-      <ul class="portfolio">
-      <div class="dropdown">
-        <h2 onclick="myFunction()" class="dropbtn">PORTFOLIO</h2>
-        <div id="myDropdown" class="dropdown-content">
-            <li> <a href="art.html"> Art </a></li>
-            <li> <a href="code.html"> Code </a> </li>
-            <li> <a href="games.html"> Games </a></li>
-            <li> <a href = "music.html"> Music </a></li>
-            <li> <a href="photography.html"> Photography </a> </li>
-            <li> <a href="video.html"> Video </a> </li>
-        </div>
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+
+                  <a href="/art"><li>Art</li></a>
+                  <a href="/code"><li>Code</li></a> 
+                  <a href="/games"><li>Games</li></a>
+                  <a href="/music"><li>Music</li></a>
+                  <a href="/photography"><li>Photography</li></a> 
+                  <a href="/video"><li>Video</li></a> 
+                  <li> &#8226; &#8226; &#8226; </li>
+                  <a href="resume.pdf"><li>Resume</li></a>
+
+                  <li>
+                    <a href="mailto:mazhang2718@gmail.com" ><i class="icon-envelope"></i></a>  
+
+                    <a href="https://twitter.com/_mazhang" target="_blank"><i class="icon-twitter-sign"></i></a>
+
+                    <a href="https://www.linkedin.com/in/matthew-zhang-555a6098?trk=hp-identity-name" target="_blank"><i class="icon-linkedin-sign"></i></a>
+
+                    <a href="http://www.github.com/mazhang2718" target="_blank"><i class="icon-github-sign"></i></a>
+
+                    <a href="https://www.instagram.com/mazhang/" target="_blank"><i class="icon-instagram"></i></a>
+
+                  </li>
+
+
+
+              </ul>
+
+            </div>
+
       </div>
-      </ul>
 
 
-  </nav>
+    </nav>
+
 
 
 
@@ -59,6 +118,7 @@
         <li><a href="https://twitter.com/_mazhang" target="_blank"><i class="icon-twitter-sign"></i></a></li>
         <li><a href="https://www.linkedin.com/in/matthew-zhang-555a6098?trk=hp-identity-name" target="_blank"><i class="icon-linkedin-sign"></i></a></li>
         <li><a href="http://www.github.com/mazhang2718" target="_blank"><i class="icon-github-sign"></i></a></li>
+        <li><a href="https://www.instagram.com/mazhang/" target="_blank"><i class="icon-instagram"></i></a></li>
       </ul>
     <p> Dev + Design: Matthew Zhang </p>
   </footer>

@@ -9,10 +9,11 @@ description: "Mostly data + web dev here."
   <div class="thing">
     <a href="{{project.link}}" target="_blank">
       <img src="img/{{project.image}}" />
-      <h4> {{project.title}} </h4>
     </a>
 
-    <p> 
+      <h4> <a href="{{project.link}}" target="_blank">{{project.title}} </a> </h4>
+
+    <p class="description"> 
       <span class="org"> {{project.org}} </span>
       {{project.desc}}
     </p>

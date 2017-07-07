@@ -10,10 +10,11 @@ description: "Some short films and stuff."
 
 
     {% if {{project.type}} == "link" %}
-    <a href="{{project.link}}" target="_blank">
-      <img src="img/{{project.image}}" />
-      <h4> {{project.title}} </h4>
-    </a>
+      <a href="{{project.link}}" target="_blank">
+        <img src="img/{{project.image}}" />
+      </a>
+
+      <h4> <a href="{{project.link}}" target="_blank">{{project.title}} </a> </h4>
     {% elsif {{project.type}} == "embed" %}
     <video controls width="100%">
       <source src="img/{{project.link}}" type="video/mp4">

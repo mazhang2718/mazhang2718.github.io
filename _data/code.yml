@@ -19,7 +19,7 @@
   link: http://apps.northbynorthwestern.com/nu-transfers/
   image: transfer.png
   title: Tracking the transfers 
-  desc: A chord-diagram visualization of Northwestern's interschool transfers.
+  desc: A chord-diagram visualization of Northwestern's interschool transfers. The data and idea was provided by another NBN staffer, and I created the visualization.
   tools: HTML, CSS, JS, d3
   org: NBN
   tags: Data
@@ -27,7 +27,7 @@
   link: http://www.northbynorthwestern.com/story/winter-weather-recap/
   image: weather.png
   title: Winter weather recap
-  desc: A glance at an unusually warm weather in Evanston. Not a thorough analysis by any means, but just a chance to test out some d3.
+  desc: A glance at an unusually warm weather in Evanston. I gathered weather data from the National Weather Service, and visualized it in d3.
   tools: JS, d3
   org: NBN
   tags: Data
@@ -80,34 +80,34 @@
   org: Meedan
   tags: App, Design
 -
-  link: http://marathon.iems.northwestern.edu/chicago2016
-  image: marathon.png
-  title: Chicago Marathon Visualization
-  desc: Working with a team of researchers to develop a data visualization system for the Chicago Marathon using the LAMP stack.
-  tools: HTML, CSS, JS, PHP, Python
-  org: Research
-  tags: App, Design, Data
--
   link: http://apps.northbynorthwestern.com/soundscapes/
   image: soundscapes.jpg
   title: Northwestern Soundscapes
-  desc: A collection of the everyday sounds on Northwestern's campus. I led the direction of development and audiovisual components.
+  desc: A collection of the everyday sounds on Northwestern's campus. I led the design, development, and audiovisual components of this piece.
   tools: HTML, CSS, JS
   org: NBN
   tags: Design
 -
+  link: http://marathon.iems.northwestern.edu/chicago2016
+  image: marathon.png
+  title: Chicago Marathon Visualization
+  desc: Worked with a team of researchers to develop a data visualization system for the Chicago and Houston Marathons using the LAMP stack. I was involved with the design and development of the entire <a href="https://github.com/mazhang2718/chicago-marathon-2016">system</a>, which features race simulations from previous years, real-time data incorporation (I built a separate <a href="https://github.com/mazhang2718/houston-marathon-data">Selenium scraper</a> for the Houston Marathon), and the visualization and display that would be shown in forward command on <a href="http://www.newsweek.com/2016/10/14/chicago-marathon-data-visualization-technology-506126.html">race day</a>. This research project is still ongoing. 
+  tools: HTML, CSS, JS, PHP, Python, BeautifulSoup, Selenium
+  org: Research
+  tags: App, Design, Data
+-
   link: https://newsounds.herokuapp.com/
   image: newsounds.gif
   title: NEWSounds
-  desc: A data sonification experiment. Used Tone.js and other libraries to map the NYT API into sound/music, as well as Node/Express.
-  tools: HTML, CSS, JS, Tone.JS, Node, Express
+  desc: NEWSounds is a data sonification experiment that imagines what the news sounds like. Using features including random seed generation, sentiment analysis, and topic categorization, I mapped headlines from the New York Times into music and an accompanying visual display.
+  tools: HTML, CSS, JS, Tone.JS, Node, Express, NYT API
   org: Side Project
   tags: App, Design
 -
   link: https://github.com/mazhang2718/care-bot
   image: carebot.gif
   title: CareBot
-  desc: Built in a day at the Propublica Vital Signs Hackathon, Eunice Lee and I created a Facebook messenger bot that helps college students find mental health specialists nearby. Winner of the best use of the Better Doctor API and the Yelp API.
+  desc: Built at the Propublica Vital Signs Hackathon, Eunice Lee and I created a Facebook messenger bot that helps college students find mental health specialists nearby. This project <a href="https://www.propublica.org/atpropublica/item/vital-signs-hackathon-awards-innovative-solutions-for-health-care-problems">won best use</a> of the Better Doctor API and the Yelp API! We also wrote a writeup of the project <a href="https://medium.com/@euniceylee/how-we-built-carebot-ce162223596c">here</a>.
   tools: JS, Node, Express, FB Messenger API
   org: Side Project
   tags: App, Design
@@ -131,7 +131,7 @@
   link: https://chrome.google.com/webstore/detail/avocalculator/kmenbojckcdnijlgjmhchdpoplodlekm
   image: avocalculator.jpg
   title: Avocalculator
-  desc: Built a Chrome Extension that replaces money with the equivalent number of avocado toasts, since that's what millennials are all into these days.
+  desc: Built a Chrome Extension that replaces monetary values on web pages with the equivalent number of avocado toasts, since that's what millennials are all into these days.
   tools: JS, Chrome Web Tools
   org: Side Project
   tags: Design, App
@@ -139,7 +139,7 @@
   link: https://github.com/euniceylee/waves
   image: waves.gif
   title: Waves
-  desc: Worked with Eunice Lee and Bomani McClendon to design and create Waves, Raspberry Pi project centered around transforming the transience of the spoken word into something concrete and physical. 
-  tools: Python, JS, Node, Raspberry Pi
+  desc: Worked with Eunice Lee and Bomani McClendon to design and create Waves, a Raspberry Pi project centered around transforming the transience of the spoken word into something concrete and physical. This project was debuted at the Segal Design Expo, and featured on the <a href="https://www.raspberrypi.org/blog/printed-sound-wave/">Raspberry Pi blog</a>!
+  tools: Python, JS, Flask, Raspberry Pi
   org: Side Project
   tags: Design, Hardware
