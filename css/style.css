@@ -219,7 +219,7 @@ a:hover .emoji{
   margin: 0 25px;
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 65px;
+  margin-top: 70px;
   clear: both;
   height: 100%;
 }
@@ -419,6 +419,7 @@ ul.social li {
 
 .art{
   display: inline-block;
+  width: 100%;
 }
 
 .art img{
