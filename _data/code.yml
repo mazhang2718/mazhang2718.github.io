@@ -64,6 +64,22 @@
   org: NBN
   tags: Data
 -
+  link: https://github.com/mazhang2718/SnailChat
+  image: snailpost.png
+  title: SnailPost
+  desc: SnailPost is a mobile communication app designed to bring back the sense of slow, thoughtful satisfaction of snail mail, in an era where most communication is built upon instant gratification. Three classmates and I co-developed this app in conjunction with clients from Northwestern's Masters in Product Design program.
+  tools: AppGyver Supersonic, AngularJS, Firebase
+  org: Class
+  tags: App
+-
+  link: https://github.com/mazhang2718/goat-bot
+  image: goatbot.png
+  title: GoatBot
+  desc: A dumb Slack bot to make bad goat puns. It's pretty easily modifiable to other text replacement applications, though!
+  tools: Python, Slack API
+  org: Side Project
+  tags: Design
+-
   link: https://chrome.google.com/webstore/detail/this-is-not-a-normal-todo/kfgbgpcghenjplklaebdnamgkjglclij
   image: todo.png
   title: This is Not (a) Normal Todo
@@ -91,7 +107,7 @@
   link: http://marathon.iems.northwestern.edu/chicago2016
   image: marathon.png
   title: Chicago Marathon Visualization
-  desc: Worked with a team of researchers to develop a data visualization system for the Chicago and Houston Marathons using the LAMP stack. I was involved with the design and development of the entire <a href="https://github.com/mazhang2718/chicago-marathon-2016">system</a>, which features race simulations from previous years, real-time data incorporation (I built a separate <a href="https://github.com/mazhang2718/houston-marathon-data">Selenium scraper</a> for the Houston Marathon), and the visualization and display that would be shown in forward command on <a href="http://www.newsweek.com/2016/10/14/chicago-marathon-data-visualization-technology-506126.html">race day</a>. This research project is still ongoing. 
+  desc: Worked with a team of researchers to develop a data visualization system for the Chicago and Houston Marathons using the LAMP stack. I was involved with the design and development of the entire <a href="https://github.com/mazhang2718/chicago-marathon-2016">system</a>, which features race simulations from previous years, real-time data incorporation (I built a separate <a href="https://github.com/mazhang2718/mikaTimingScraper">Selenium scraper</a> for the Houston Marathon), and the visualization and display that would be shown in forward command on <a href="http://www.newsweek.com/2016/10/14/chicago-marathon-data-visualization-technology-506126.html">race day</a>. This research project is still ongoing. 
   tools: HTML, CSS, JS, PHP, Python, BeautifulSoup, Selenium
   org: Research
   tags: App, Design, Data

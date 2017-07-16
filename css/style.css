@@ -572,6 +572,7 @@ ul.social li {
     .lightbox img {
       height: 95%;
       width: auto;
+      max-width: 100%;
       margin-top: 2%;
     }
 

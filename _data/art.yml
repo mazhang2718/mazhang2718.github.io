@@ -1,13 +1,58 @@
---- 
--
-  align: right
-  image: 18.jpg
+---
 -
   align: left
-  image: link.jpg
+  image: manwich0.jpg
 -
   align: right
+  image: 16.jpg
+-
+  align: left
+  image: 19.jpg
+-
+  align: left
+  image: 18.jpg
+-
+  align: right
+  image: link.jpg
+-
+  align: left
+  image: study2.JPG
+-
+  align: right
+  image: study3.jpg
+-
+  align: left
+  image: study4.JPG
+-
+  align: right
+  image: link2.jpg
+-
+  align: left
+  image: study1.jpg
+-
+  align: right
+  image: leslie.jpg
+-
+  align: right
+  image: art13.gif
+-
+  align: left
   image: art15.jpg
+-
+  align: right
+  image: anxiety.jpg
+-
+  align: left
+  image: Aditi.jpeg
+-
+  align: right
+  image: art9.jpg
+-
+  align: left
+  image: art8.gif
+-
+  align: right
+  image: 17.jpg
 -
   align: left
   image: art8.png
@@ -16,52 +61,16 @@
   image: art14.jpg
 -
   align: left
-  image: Aditi.jpeg
+  image: age-meme.jpg
 -
   align: right
-  image: study1.jpg
--
-  align: left
-  image: study3.jpg
--
-  align: right
-  image: study4.JPG
--
-  align: left
-  image: art13.gif
--
-  align: right
-  image: link2.jpg
--
-  align: left
-  image: art6.jpg
--
-  align: right
-  image: art9.jpg
--
-  align: left
-  image: leslie.jpg
--
-  align: right
-  image: art6.jpg
--
-  align: left
   image: art2.png
 -
-  align: right
-  image: study2.JPG
--
   align: left
-  image: 19.jpg
+  image: art6.jpg
 -
   align: right
-  image: 16.jpg
--
-  align: left
-  image: 17.jpg
--
-  align: right
-  image: art8.gif
+  image: trainstudy.jpg
 -
   align: left
   image: art5.png
