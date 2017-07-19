@@ -159,3 +159,19 @@
   tools: Python, JS, Flask, Raspberry Pi
   org: Side Project
   tags: Design, Hardware
+-
+  link: https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/
+  image: special-session.gif
+  title: Special Session Cost
+  desc: Analyzed and visualized the cost of the upcoming Texas special session (plus, it's adjusted for inflation for extra transparency!).
+  tools: JS, d3
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://github.com/mazhang2718/torch-rnn
+  image: frameworks.png
+  title: Javascript Frameworks
+  desc: I trained a neural network to generate new Javascript framework names. Some of them were pretty neat!
+  tools: Torch, Amazon EC2, BeautifulSoup
+  org: Side Project
+  tags: Design, Hardware
