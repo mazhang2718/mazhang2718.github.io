@@ -33,10 +33,10 @@
   align: right
   image: leslie.jpg
 -
-  align: right
+  align: left
   image: art13.gif
 -
-  align: left
+  align: right
   image: art15.jpg
 -
   align: right
@@ -90,15 +90,21 @@
   align: right
   image: nitw2.gif
 -
+  align: left
+  image: 21.jpg
+-
   align: right
-  image: art12.jpg
+  image: 22.jpg
 -
   align: left
+  image: art12.jpg
+-
+  align: right
   image: 20.jpg
 -
   align: right
-  image: 21.jpg
+  image: sb3.jpg
 -
   align: left
-  image: 22.jpg
+  image: grill.gif
 
