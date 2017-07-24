@@ -1,19 +1,28 @@
 ---
 -
   align: left
-  image: manwich0.jpg
--
-  align: right
-  image: 16.jpg
+  image: mush2.gif
 -
   align: left
+  image: naps.jpg
+-
+  align: right
+  image: hills.jpg
+-
+  align: right
+  image: manwich0.jpg
+-
+  align: left
+  image: obama.jpg
+-
+  align: right
   image: 19.jpg
 -
   align: left
-  image: 18.jpg
+  image: bus-sketch.jpg
 -
   align: right
-  image: link.jpg
+  image: plus-ultra.jpg
 -
   align: left
   image: study2.JPG
@@ -62,6 +71,12 @@
 -
   align: left
   image: age-meme.jpg
+-
+  align: right
+  image: kayak.jpg
+-
+  align: left
+  image: spiderman.jpg
 -
   align: right
   image: art2.png

@@ -1,5 +1,11 @@
 ---
 -
+  image: trails.jpg
+  align: left
+-
+  image: fireworks.jpg
+  align: right
+-
   image: wheel.jpg
   align: left
 -
