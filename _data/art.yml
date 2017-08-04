@@ -1,7 +1,10 @@
 ---
 -
-  align: left
+  align: right
   image: mush2.gif
+-
+  align: left
+  image: tired.jpg
 -
   align: left
   image: naps.jpg
@@ -80,6 +83,12 @@
 -
   align: right
   image: art2.png
+-
+  align: left
+  image: portrait.jpg
+-
+  align: right
+  image: outside.jpg
 -
   align: left
   image: art6.jpg

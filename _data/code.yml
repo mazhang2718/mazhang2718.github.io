@@ -144,6 +144,14 @@
   org: Texas Tribune
   tags: Data
 -
+  link: https://www.texastribune.org/2017/08/02/despite-rise-demand-texas-feeds-fewer-hungry-kids-during-summer
+  image: summer-meals.jpg
+  title: Summer Meals
+  desc: Cleaned and analyzed data on summer meals programs for a reporter, and visualized the trends in Texas's decline in its summer meals program. 
+  tools: JS, d3, Python
+  org: Texas Tribune
+  tags: Data
+-
   link: https://www.texastribune.org/2017/06/28/seventeen-vacancies-still-open-texas/
   image: courtvacancies.png
   title: Court Vacancies
