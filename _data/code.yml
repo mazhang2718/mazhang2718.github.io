@@ -104,14 +104,6 @@
   org: NBN
   tags: Design
 -
-  link: https://www.texastribune.org/2017/07/21/hey-texplainer-will-people-texas-ever-get-remedy-states-alleged-illega/
-  image: redistrict.gif
-  title: Redistricting
-  desc: I made a gif demonstrating possible changes to Texas redistricting. This one didn't take long, but I've got some more redistricting interactives in the works!
-  tools: QGIS, Photoshop
-  org: Texas Tribune
-  tags: Design, Hardware
--
   link: http://marathon.iems.northwestern.edu/chicago2016
   image: marathon.png
   title: Chicago Marathon Visualization
@@ -190,4 +182,20 @@
   desc: I trained a neural network to generate new Javascript framework names. Some of them were pretty neat!
   tools: Torch, Amazon EC2, BeautifulSoup
   org: Side Project
+  tags: Design, Hardware
+-
+  link: https://apps.texastribune.org/house-vote-property-tax-amendment-sb1/
+  image: votes.png
+  title: Vote Tracker
+  desc: I helped create an app that allowed reporters to easily track and visualize votes on Texas legislation from a Google Spreadsheet.
+  tools: Nunjucks, Google Spreadsheets
+  org: Texas Tribune
+  tags: Design, Hardware
+-
+  link: http://graphics.texastribune.org/graphics/redistricting-cd35/
+  image: redistricting.jpg
+  title: Texas Redistricting
+  desc: I worked with reporters to design and produce an interactive visualization, which demonstrated how Texas's 35th Congressional District violated the Voting Rights Act.
+  tools: QGIS, Mapbox, d3
+  org: Texas Tribune
   tags: Design, Hardware
