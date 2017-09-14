@@ -137,5 +137,16 @@
 -
   align: right
   image: food.jpg
-
-
+-
+  align: left
+  image: su.jpg
+-
+  align: right
+  image: mushroom.jpg
+-
+  align: left
+  image: dumpling.jpg
+-
+  align: right
+  image: hand.gif
+  
