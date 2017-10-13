@@ -129,6 +129,12 @@
   align: left
   image: grill.gif
 -
+  align: left
+  image: bojack.jpg
+-
+  align: right
+  image: mushroom.jpg
+-
   align: right
   image: study7.jpg
 -
@@ -140,4 +146,3 @@
 -
   align: left
   image: eyehands.gif
-
