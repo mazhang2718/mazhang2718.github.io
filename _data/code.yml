@@ -172,7 +172,7 @@
   image: redistricting.jpg
   title: Texas Redistricting
   desc: I worked with reporters to design and produce an interactive visualization, which demonstrated how Texas's 35th Congressional District violated the Voting Rights Act.
-  tools: QGIS, Mapbox, d3
+  tools: QGIS, Mapbox, d3, ArchieML
   org: Texas Tribune
   tags: Design, Hardware
 -
