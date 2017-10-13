@@ -1,16 +1,13 @@
 ---
 -
-  align: right
-  image: mush2.gif
--
   align: left
   image: tired.jpg
 -
   align: left
-  image: naps.jpg
+  image: sucomic.png
 -
   align: right
-  image: hills.jpg
+  image: ddcomic.png
 -
   align: right
   image: manwich0.jpg
@@ -137,5 +134,10 @@
 -
   align: right
   image: food.jpg
-
+-
+  align: right
+  image: koro2.gif
+-
+  align: left
+  image: eyehands.gif
 

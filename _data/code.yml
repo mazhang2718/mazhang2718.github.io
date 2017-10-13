@@ -128,30 +128,6 @@
   org: Side Project
   tags: App, Design
 -
-  link: https://www.texastribune.org/2017/06/21/rideaustin/
-  image: uberviz.png
-  title: RideAustin Analysis
-  desc: Created a visualization pinpointing the drop in RideAustin ridership after Uber and Lyft returned to Texas.
-  tools: JS, d3
-  org: Texas Tribune
-  tags: Data
--
-  link: https://www.texastribune.org/2017/08/02/despite-rise-demand-texas-feeds-fewer-hungry-kids-during-summer
-  image: summer-meals.jpg
-  title: Summer Meals
-  desc: Cleaned and analyzed data on summer meals programs for a reporter, and visualized the trends in Texas's decline in its summer meals program. 
-  tools: JS, d3, Python
-  org: Texas Tribune
-  tags: Data
--
-  link: https://www.texastribune.org/2017/06/28/seventeen-vacancies-still-open-texas/
-  image: courtvacancies.png
-  title: Court Vacancies
-  desc: Created a visualization of the court vacancies remaining in Texas.
-  tools: JS, d3
-  org: Texas Tribune
-  tags: Data
--
   link: https://chrome.google.com/webstore/detail/avocalculator/kmenbojckcdnijlgjmhchdpoplodlekm
   image: avocalculator.jpg
   title: Avocalculator
@@ -169,10 +145,10 @@
   tags: Design, Hardware
 -
   link: https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/
-  image: special-session.gif
-  title: Special Session Cost
-  desc: Analyzed and visualized the cost of the upcoming Texas special session (plus, it's adjusted for inflation for extra transparency!).
-  tools: JS, d3
+  image: courtvacancies.png
+  title: Static Graphics
+  desc: Worked with reporters in the Texas Tribune newsroom to analyze, design, and develop data visualizations for news coverage. I worked on a story about <a href="https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/">court vacancies</a>, analyzed data about <a href="https://www.texastribune.org/2017/08/02/despite-rise-demand-texas-feeds-fewer-hungry-kids-during-summer">summer meals programs</a>, visualized <a href="https://www.texastribune.org/2017/06/21/rideaustin/">drops in RideAustin ridership</a>, and tracked down data on <a href="https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/">Texas's special session costs</a>.
+  tools: JS, d3, Nunjucks, Flask, Python
   org: Texas Tribune
   tags: Data
 -
@@ -188,7 +164,7 @@
   image: votes.png
   title: Vote Tracker
   desc: I helped create an app that allowed reporters to easily track and visualize votes on Texas legislation from a Google Spreadsheet.
-  tools: Nunjucks, Google Spreadsheets
+  tools: Nunjucks, Google Spreadsheets, Flask
   org: Texas Tribune
   tags: Design, Hardware
 -
@@ -198,4 +174,20 @@
   desc: I worked with reporters to design and produce an interactive visualization, which demonstrated how Texas's 35th Congressional District violated the Voting Rights Act.
   tools: QGIS, Mapbox, d3
   org: Texas Tribune
+  tags: Design, Hardware
+-
+  link: http://www.npr.org/sections/parallels/2017/10/12/557178036/whats-next-for-the-iran-nuclear-deal-if-president-trump-refuses-to-recertify-it
+  image: flowchart.png
+  title: Data Visualizations
+  desc: Currently working with NPR on designing and developing visuals with their dailygraphics rig. Some examples include a <a href="http://www.npr.org/sections/parallels/2017/10/12/557178036/whats-next-for-the-iran-nuclear-deal-if-president-trump-refuses-to-recertify-it">flowchart on Iran certification</a>, visualizations of the <a href="http://www.npr.org/2017/10/04/554558365/three-counties-59-million-and-the-opioid-crisis">opioid crisis</a>, and more.
+  tools: JS, d3, Flask
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://twitter.com/NYPL_tweeter
+  image: nypl.png
+  title: NYPL Tweeter
+  desc: I created a Twitter bot to post hourly images from the New York Public Library's public domain.
+  tools: JS, Python, Twitter API
+  org: Side Project
   tags: Design, Hardware
