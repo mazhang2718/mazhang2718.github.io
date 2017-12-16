@@ -16,37 +16,13 @@
   org: NBN
   tags: Design
 -
-  link: http://apps.northbynorthwestern.com/nu-transfers/
-  image: transfer.png
-  title: Tracking the transfers 
-  desc: A chord-diagram visualization of Northwestern's interschool transfers. The data and idea was provided by another NBN staffer, and I created the visualization.
-  tools: HTML, CSS, JS, d3
-  org: NBN
-  tags: Data
--
-  link: http://www.northbynorthwestern.com/story/winter-weather-recap/
-  image: weather.png
-  title: Winter weather recap
-  desc: A glance at an unusually warm weather in Evanston. I gathered weather data from the National Weather Service, and visualized it in d3.
-  tools: JS, d3
-  org: NBN
-  tags: Data
--
   link: http://apps.northbynorthwestern.com/influential-friend/
   image: influential.png
   title: Radio Drama - Influential Friend
-  desc: Developed an audio/text piece with NBN's Writing Section focusing on influential friendships in college. 
+  desc: Developed an audio/text piece with NBN's Writing Section focusing on influential friendships in college.
   tools: HTML, CSS, JS
   org: NBN
   tags: Design
--
-  link: http://www.northbynorthwestern.com/story/when-should-you-do-laundry/
-  image: laundry.png
-  title: When should you do laundry?
-  desc: Take two of visualizing Northwestern's busiest facilities - this time, the laundry machines. I used a Python scraper to retrieve the data from LaundryView, then built the visualization with d3.
-  tools: JS, d3
-  org: NBN
-  tags: Data
 -
   link: http://apps.northbynorthwestern.com/lost-in-translation/
   image: lostintranslation.png
@@ -55,14 +31,6 @@
   tools: HTML, CSS, JS
   org: NBN
   tags: Design
--
-  link: http://www.northbynorthwestern.com/story/when-should-you-go-the-gym/
-  image: gym.png
-  title: When should you go to the gym?
-  desc: An interactive look at the busiest times to go to Northwestern's gyms.
-  tools: JS, d3
-  org: NBN
-  tags: Data
 -
   link: https://github.com/mazhang2718/SnailChat
   image: snailpost.png
@@ -88,14 +56,6 @@
   org: Side Project
   tags: App, Design
 -
-  link: https://github.com/meedan/check-mark
-  image: check.png
-  title: Check Mark
-  desc: Worked with Meedan to build a browser extension that allows users to use Check - Meedan's crowdsourced news verification tool - without navigating to the Check webapp itself.
-  tools: JS, React, Redux, GraphQL, Chrome Web Tools
-  org: Meedan
-  tags: App, Design
--
   link: http://apps.northbynorthwestern.com/soundscapes/
   image: soundscapes.jpg
   title: Northwestern Soundscapes
@@ -103,30 +63,6 @@
   tools: HTML, CSS, JS
   org: NBN
   tags: Design
--
-  link: http://marathon.iems.northwestern.edu/chicago2016
-  image: marathon.png
-  title: Chicago Marathon Visualization
-  desc: Worked with a team of researchers to develop a data visualization system for the Chicago and Houston Marathons using the LAMP stack. I was involved with the design and development of the entire <a href="https://github.com/mazhang2718/chicago-marathon-2016">system</a>, which features race simulations from previous years, real-time data incorporation (I built a separate <a href="https://github.com/mazhang2718/mikaTimingScraper">Selenium scraper</a> for the Houston Marathon), and the visualization and display that would be shown in forward command on <a href="http://www.newsweek.com/2016/10/14/chicago-marathon-data-visualization-technology-506126.html">race day</a>. This research project is still ongoing. 
-  tools: JS, d3, PHP, Python, MySQL, BeautifulSoup, Selenium
-  org: Research
-  tags: App, Design, Data
--
-  link: https://newsounds.herokuapp.com/
-  image: newsounds.gif
-  title: NEWSounds
-  desc: NEWSounds is a data sonification experiment that imagines what the news sounds like. Using features including random seed generation, sentiment analysis, and topic categorization, I mapped headlines from the New York Times into music and an accompanying visual display.
-  tools: HTML, CSS, JS, Tone.JS, Node, Express, NYT API
-  org: Side Project
-  tags: App, Design
--
-  link: https://github.com/mazhang2718/care-bot
-  image: carebot.gif
-  title: CareBot
-  desc: Built at the Propublica Vital Signs Hackathon, Eunice Lee and I created a Facebook messenger bot that helps college students find mental health specialists nearby. This project <a href="https://www.propublica.org/atpropublica/item/vital-signs-hackathon-awards-innovative-solutions-for-health-care-problems">won best use</a> of the Better Doctor API and the Yelp API! We also wrote a writeup of the project <a href="https://medium.com/@euniceylee/how-we-built-carebot-ce162223596c">here</a>.
-  tools: JS, Node, Express, FB Messenger API
-  org: Side Project
-  tags: App, Design
 -
   link: https://chrome.google.com/webstore/detail/avocalculator/kmenbojckcdnijlgjmhchdpoplodlekm
   image: avocalculator.jpg
@@ -136,21 +72,13 @@
   org: Side Project
   tags: Design, App
 -
-  link: https://github.com/euniceylee/waves
-  image: waves.gif
-  title: Waves
-  desc: Worked with Eunice Lee and Bomani McClendon to design and create Waves, a Raspberry Pi project centered around transforming the transience of the spoken word into something concrete and physical. This project was debuted at the Segal Design Expo, and featured on the <a href="https://www.raspberrypi.org/blog/printed-sound-wave/">Raspberry Pi blog</a>!
-  tools: Python, JS, Flask, Raspberry Pi
-  org: Side Project
+  link: https://www.npr.org/2017/09/18/551095795/npr-ipsos-poll-most-americans-dont-trust-trump-on-north-korea
+  image: quizzes.png
+  title: Quizzes
+  desc: Helped develop interactive quizzes to accompany NPR/Ipsos poll stories.
+  tools: JS, d3
+  org: NPR
   tags: Design, Hardware
--
-  link: https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/
-  image: courtvacancies.png
-  title: Static Graphics
-  desc: Worked with reporters in the Texas Tribune newsroom to analyze, design, and develop data visualizations for news coverage. I worked on a story about <a href="https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/">court vacancies</a>, analyzed data about <a href="https://www.texastribune.org/2017/08/02/despite-rise-demand-texas-feeds-fewer-hungry-kids-during-summer">summer meals programs</a>, visualized <a href="https://www.texastribune.org/2017/06/21/rideaustin/">drops in RideAustin ridership</a>, and tracked down data on <a href="https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/">Texas's special session costs</a>.
-  tools: JS, d3, Nunjucks, Flask, Python
-  org: Texas Tribune
-  tags: Data
 -
   link: https://github.com/mazhang2718/torch-rnn
   image: frameworks.png
@@ -168,6 +96,14 @@
   org: Texas Tribune
   tags: Design, Hardware
 -
+  link: https://github.com/mazhang2718/care-bot
+  image: carebot.gif
+  title: CareBot
+  desc: Built at the Propublica Vital Signs Hackathon, Eunice Lee and I created a Facebook messenger bot that helps college students find mental health specialists nearby. This project <a href="https://www.propublica.org/atpropublica/item/vital-signs-hackathon-awards-innovative-solutions-for-health-care-problems">won best use</a> of the Better Doctor API and the Yelp API! We also wrote a writeup of the project <a href="https://medium.com/@euniceylee/how-we-built-carebot-ce162223596c">here</a>.
+  tools: JS, Node, Express, FB Messenger API
+  org: Side Project
+  tags: App, Design
+-
   link: http://graphics.texastribune.org/graphics/redistricting-cd35/
   image: redistricting.jpg
   title: Texas Redistricting
@@ -176,18 +112,66 @@
   org: Texas Tribune
   tags: Design, Hardware
 -
-  link: http://www.npr.org/sections/parallels/2017/10/12/557178036/whats-next-for-the-iran-nuclear-deal-if-president-trump-refuses-to-recertify-it
-  image: flowchart.png
-  title: Data Visualizations
-  desc: Currently working with NPR on designing and developing visuals with their dailygraphics rig. Some examples include a <a href="http://www.npr.org/sections/parallels/2017/10/12/557178036/whats-next-for-the-iran-nuclear-deal-if-president-trump-refuses-to-recertify-it">flowchart on Iran certification</a>, visualizations of the <a href="http://www.npr.org/2017/10/04/554558365/three-counties-59-million-and-the-opioid-crisis">opioid crisis</a>, and more.
-  tools: JS, d3, Flask
-  org: NPR
-  tags: Design, Hardware
--
   link: https://twitter.com/NYPL_tweeter
   image: nypl.png
   title: NYPL Tweeter
   desc: I created a Twitter bot to post hourly images from the New York Public Library's public domain.
   tools: JS, Python, Twitter API
   org: Side Project
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/parallels/2017/11/03/561560174/the-pigeon-racers-of-indonesia
+  image: pigeons.png
+  title: Pigeon Soundscapes
+  desc: Designed and developed mobile and desktop interactions for a collaborative All Things Considered / Visuals piece on Indonesian pigeon racing.
+  tools: JS, Modernizr.js
+  org: NPR
+  tags: Design, Hardware
+-
+  link: http://marathon.iems.northwestern.edu/chicago2016
+  image: marathon.png
+  title: Chicago Marathon Visualization
+  desc: Worked with a team of researchers to develop a data visualization system for the Chicago and Houston Marathons using the LAMP stack. I was involved with the design and development of the entire <a href="https://github.com/mazhang2718/chicago-marathon-2016">system</a>, which features race simulations from previous years, real-time data incorporation (I built a separate <a href="https://github.com/mazhang2718/mikaTimingScraper">Selenium scraper</a> for the Houston Marathon), and the visualization and display that would be shown in forward command on <a href="http://www.newsweek.com/2016/10/14/chicago-marathon-data-visualization-technology-506126.html">race day</a>. This research project is still ongoing.
+  tools: JS, d3, PHP, Python, MySQL, BeautifulSoup, Selenium
+  org: Research
+  tags: App, Design, Data
+-
+  link: https://newsounds.herokuapp.com/
+  image: newsounds.gif
+  title: NEWSounds
+  desc: NEWSounds is a data sonification experiment that imagines what the news sounds like. Using features including random seed generation, sentiment analysis, and topic categorization, I mapped headlines from the New York Times into music and an accompanying visual display.
+  tools: HTML, CSS, JS, Tone.JS, Node, Express, NYT API
+  org: Side Project
+  tags: App, Design
+-
+  link: https://github.com/nprapps/dailygraphics#generating-copyedit-notes
+  image: copyedit.png
+  title: Copyedit Automation
+  desc: Pitched, developed, and wrote documentation on an automation task to automate sending copyedit notes for NPR-developed graphics.
+  tools: Fabric, Flask, Python
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://github.com/meedan/check-mark
+  image: check.png
+  title: Check Mark
+  desc: Worked with Meedan to build a browser extension that allows users to use Check - Meedan's crowdsourced news verification tool - without navigating to the Check webapp itself.
+  tools: JS, React, Redux, GraphQL, Chrome Web Tools
+  org: Meedan
+  tags: App, Design
+-
+  link: https://github.com/euniceylee/waves
+  image: waves.gif
+  title: Waves
+  desc: Worked with Eunice Lee and Bomani McClendon to design and create Waves, a Raspberry Pi project centered around transforming the transience of the spoken word into something concrete and physical. This project was debuted at the Segal Design Expo, and featured on the <a href="https://www.raspberrypi.org/blog/printed-sound-wave/">Raspberry Pi blog</a>!
+  tools: Python, JS, Flask, Raspberry Pi
+  org: Side Project
+  tags: Design, Hardware
+-
+  link: http://apps.npr.org/best-books-2017/#/_
+  image: books.jpg
+  title: Goodreads Integration
+  desc: Pitched and developed the integration of Goodreads into the NPR Books Concierge to allow users to bookmark books that they're interested in. This was achieved by developing a Fabric task to take the ISBNs from the Google Spreadsheet the book list is stored in, using the Goodreads API to convert them to a Goodreads-specific ID, and then using Jinja to inject that ID into a URL template within the HTML.
+  tools: Fabric, Flask, Python, Jinja, Goodreads API
+  org: NPR
   tags: Design, Hardware

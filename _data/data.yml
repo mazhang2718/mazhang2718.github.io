@@ -1,0 +1,177 @@
+---
+-
+  link: http://apps.northbynorthwestern.com/nu-transfers/
+  image: transfer.png
+  title: Tracking the transfers
+  desc: A chord-diagram visualization of Northwestern's interschool transfers. The data and idea was provided by another NBN staffer, and I created the visualization.
+  tools: HTML, CSS, JS, d3
+  org: NBN
+  tags: Data
+-
+  link: http://www.northbynorthwestern.com/story/winter-weather-recap/
+  image: weather.png
+  title: Winter weather recap
+  desc: A glance at an unusually warm weather in Evanston. I gathered weather data from the National Weather Service, and visualized it in d3.
+  tools: JS, d3
+  org: NBN
+  tags: Data
+-
+  link: http://www.northbynorthwestern.com/story/when-should-you-do-laundry/
+  image: laundry.png
+  title: When should you do laundry?
+  desc: Take two of visualizing Northwestern's busiest facilities - this time, the laundry machines. I used a Python scraper to retrieve the data from LaundryView, then built the visualization with d3.
+  tools: JS, d3
+  org: NBN
+  tags: Data
+-
+  link: http://www.northbynorthwestern.com/story/when-should-you-go-the-gym/
+  image: gym.png
+  title: When should you go to the gym?
+  desc: An interactive look at the busiest times to go to Northwestern's gyms.
+  tools: JS, d3
+  org: NBN
+  tags: Data
+-
+  link: https://www.texastribune.org/2017/06/28/seventeen-vacancies-still-open-texas/
+  image: courtvacancies.png
+  title: Court Vacancies
+  desc: Analyzed and visualized court vacancies in Texas courts.
+  tools: JS, d3
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://www.texastribune.org/2017/06/21/rideaustin/
+  image: uberviz.png
+  title: RideAustin Ridership
+  desc: Analyzed, visualized, and annotated RideAustin's ridership numbers before and after Uber and Lyft came back to Austin.
+  tools: JS, d3, d3-annotation
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://www.texastribune.org/2017/08/02/despite-rise-demand-texas-feeds-fewer-hungry-kids-during-summer/
+  image: summer-meals.jpg
+  title: Summer Meals
+  desc: Wrote a Python script to analyze education data and track Texas children's participation in summer meal programs. I then visualized the results with d3.
+  tools: JS, d3, Python
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://www.texastribune.org/2017/07/18/hey-texplainer-what-breakdown-cost-special-session/
+  image: special-session.gif
+  title: Special Session Cost
+  desc: Worked with a community reporter to research and visualize the costs of the 2017 Texas special legislative session.
+  tools: JS, d3
+  org: Texas Tribune
+  tags: Data
+-
+  link: https://apps.texastribune.org/house-vote-property-tax-amendment-sb1/
+  image: votes.png
+  title: Vote Tracker
+  desc: I helped create an app that allowed reporters to easily track and visualize votes on Texas legislation from a Google Spreadsheet.
+  tools: Nunjucks, Google Spreadsheets, Flask
+  org: Texas Tribune
+  tags: Design, Hardware
+-
+  link: http://www.npr.org/2017/10/04/554558365/three-counties-59-million-and-the-opioid-crisis
+  image: overdose.png
+  title: Opioid Deaths
+  desc: Requested and visualized data on opioid deaths in various U.S. counties.
+  tools: JS, d3
+  org: NPR
+  tags: Design, Hardware
+-
+  link: http://www.npr.org/sections/parallels/2017/10/12/557178036/whats-next-for-the-iran-nuclear-deal-if-president-trump-refuses-to-recertify-it
+  image: flowchart.png
+  title: Iran Recertification
+  desc: Worked with a reporter to design flows that would accurately describe different scenarios upon Trump's recertification decision.
+  tools: CSS (Flexbox)
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/goatsandsoda/2017/09/13/550493934/what-s-at-stake-with-the-proposed-trump-foreign-aid-cuts
+  image: gates.jpg
+  title: Disease Projections
+  desc: Visualized disease projection rates using analysis from the Gates Foundation.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/2017/10/13/557433452/poll-majorities-of-both-parties-favor-increased-gun-restrictions
+  image: ipsos.png
+  title: Gun Restriction Poll
+  desc: Used a diverging bar chart to visualize a NPR/Ipsos poll on gun restrictions.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/thetwo-way/2017/12/05/568595240/crime-reporting-failures-persist-across-all-the-pentagons-armed-services
+  image: fingerprints.jpg
+  title: Military Crime
+  desc: Visualizes reports showing that the military failed to provide a large percentage of criminal history records to the FBI - a systemic problem that allowed the gunman in the November 2017 Texas shooting to pass background checks.
+  tools: JS, d3, Flask
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/parallels/2017/12/01/566798632/under-trump-u-s-troops-in-war-zones-are-on-the-rise
+  image: bubble.jpg
+  title: Overseas U.S. Troop Deployment
+  desc: Since President Trump came into office, U.S. troop numbers have been edging up in the three countries where the U.S. is most deeply involved in fighting — Syria, Iraq and Afghanistan. In addition to visualizing this with d3 and annotating with ai2html, I also cleaned data from the Department of Defense using Python scripts.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/goatsandsoda/2017/10/19/558821792/report-pollution-kills-3-times-more-than-aids-tb-and-malaria-combined
+  image: pollution.png
+  title: Pollution Deaths
+  desc: Used a dot chart to visualize pollution deaths in comparison with other major causes of death.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/2017/11/07/562351087/president-trump-was-elected-a-year-ago-and-americans-are-feeling-aggrieved
+  image: discrimination.jpg
+  title: Discrimination in America Polls
+  desc: Visualized an NPR/Harvard poll that revealed a majority of white Americans believe that discrimination against whites occur today.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/thetwo-way/2017/10/20/558757043/the-u-s-military-in-africa-a-discreet-presence-in-many-places
+  image: havana.jpg
+  title: Cuban Immigrant's Journey
+  desc: Mapped and annotated a Cuban immigrant's arduous struggle to make it to the United States using ai2html.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/thetwo-way/2017/10/20/558757043/the-u-s-military-in-africa-a-discreet-presence-in-many-places
+  image: africa.jpg
+  title: U.S. Military Involvement in Africa
+  desc: Mapped and annotated U.S. military invovlement in Africa using ai2html.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: https://www.npr.org/sections/ed/2017/11/28/564054556/what-really-happened-at-the-school-where-every-senior-got-into-college
+  image: ballou.jpg
+  title: Ballou Graduation Rates
+  desc: Visualized the overinflated graduation rates in Ballou High School for a joint WAMU/NPR Ed investigative story.
+  org: NPR
+  tags: Design, Hardware
+-
+  link: http://graphics.texastribune.org/graphics/redistricting-cd35/
+  image: redistricting.jpg
+  title: Texas Redistricting
+  desc: I worked with reporters to design and produce an interactive visualization, which demonstrated how Texas's 35th Congressional District violated the Voting Rights Act.
+  tools: QGIS, Mapbox, d3, ArchieML
+  org: Texas Tribune
+  tags: Design, Hardware
+-
+  link: https://newsounds.herokuapp.com/
+  image: newsounds.gif
+  title: NEWSounds
+  desc: NEWSounds is a data sonification experiment that imagines what the news sounds like. Using features including random seed generation, sentiment analysis, and topic categorization, I mapped headlines from the New York Times into music and an accompanying visual display.
+  tools: HTML, CSS, JS, Tone.JS, Node, Express, NYT API
+  org: Side Project
+  tags: App, Design
+-
+  link: http://marathon.iems.northwestern.edu/chicago2016
+  image: marathon.png
+  title: Chicago Marathon Visualization
+  desc: Worked with a team of researchers to develop a data visualization system for the Chicago and Houston Marathons using the LAMP stack. I was involved with the design and development of the entire <a href="https://github.com/mazhang2718/chicago-marathon-2016">system</a>, which features race simulations from previous years, real-time data incorporation (I built a separate <a href="https://github.com/mazhang2718/mikaTimingScraper">Selenium scraper</a> for the Houston Marathon), and the visualization and display that would be shown in forward command on <a href="http://www.newsweek.com/2016/10/14/chicago-marathon-data-visualization-technology-506126.html">race day</a>. This research project is still ongoing.
+  tools: JS, d3, PHP, Python, MySQL, BeautifulSoup, Selenium
+  org: Research
+  tags: App, Design, Data

@@ -4,27 +4,46 @@ title: Photography
 description: "More photos on <a href='https://500px.com/mazhang'target='_blank'>500px</a> and <a href='https://www.instagram.com/mazhang/'target='_blank'>Instagram</a>."
 ---
 
-{% for art in site.data.photos reversed%}
+<div class="left-column">
+{% for art in site.data.photos reversed %}
 
-	{% if {{art.align}} == "left" %}
-  		<div class="art left">
-  	{% elsif {{art.align}} == "right" %}
-  		<div class="art right">
-  	{% else %}
-  		<div class="art">
-  	{% endif %}
+  {% assign index = forloop.index | modulo:2 %}
+	{% if index == 1 %}
+    <div class="art">
 
-	    	<a href="#{{forloop.index}}">
-		  		<img src="/photoStuff/{{art.image}}">
-			</a>
-		</div>
+  	  <a href="#{{forloop.index}}">
+  		  <img src="/photoStuff/{{art.image}}">
+  		</a>
 
-	<a href="#_" class="lightbox" id="{{forloop.index}}">
-	  <img src="/photoStuff/{{art.image}}">
-	</a>
+  	</div>
+
+  	<a href="#_" class="lightbox" id="{{forloop.index}}">
+  	  <img src="/photoStuff/{{art.image}}">
+  	</a>
+  {% endif %}
 
 {% endfor %}
 
+</div>
 
 
+<div class="right-column">
+{% for art in site.data.photos reversed %}
 
+  {% assign index = forloop.index | modulo:2 %}
+  {% if index == 0 %}
+
+    <div class="art">
+
+  	  <a href="#{{forloop.index}}">
+  		  <img src="/photoStuff/{{art.image}}">
+  		</a>
+
+  	</div>
+
+  	<a href="#_" class="lightbox" id="{{forloop.index}}">
+  	  <img src="/photoStuff/{{art.image}}">
+  	</a>
+  {% endif %}
+
+{% endfor %}

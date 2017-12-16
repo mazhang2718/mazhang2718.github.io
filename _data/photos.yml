@@ -33,9 +33,6 @@
   image: DSCF1001.jpg
   align: right
 -
-  image: DSCF2646.jpg
-  align: left
--
   image: DSCF2695.jpg
   align: right
 -
@@ -44,9 +41,6 @@
 -
   image: DSCF3083.jpg
   align: right
--
-  image: DSCF3198.jpg
-  align: left
 -
   image: DSCF3554.jpg
   align: left
@@ -60,20 +54,14 @@
   image: DSCF4371.jpg
   align: right
 -
-  image: DSCF3496.jpg
-  align: left
--
   image: DSCF4512.jpg
   align: right
 -
-  image: DSCF4782.jpg
+  image: DSCF3496.jpg
   align: left
 -
   image: DSCF6238.jpg
   align: right
--
-  image: DSCF4847.jpg
-  align: left
 -
   image: DSCF4860-2.jpg
   align: right
@@ -156,11 +144,11 @@
   image: photo-2.jpg
   align: right
 -
-  image: cooking.jpg
-  align: left
--
   image: rain.jpg
   align: right
+-
+  image: cooking.jpg
+  align: left
 -
   image: train.jpg
   align: left
@@ -168,11 +156,17 @@
   image: DSCF6351.jpg
   align: left
 -
-  image: DSCF4827.jpg
-  align: right
+  image: lin.png
+  align: left
+-
+  image: bell.png
+  align: left
 -
   image: arch.jpg
   align: left
+-
+  image: DSCF4827.jpg
+  align: right
 -
   image: DSCF1539.jpg
   align: right

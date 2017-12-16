@@ -1,10 +1,10 @@
 ---
 layout: project
-title: Code
-description: "Web apps, bots, hardware hacks, and other miscellaneous coding projects."
+title: Data
+description: "Visualizations and graphics built with HTML/CSS/JS/d3/ai2html/etc."
 ---
 
-{% for project in site.data.code reversed%}
+{% for project in site.data.data reversed%}
 
   <div class="thing">
     <a href="{{project.link}}" target="_blank">
@@ -17,8 +17,6 @@ description: "Web apps, bots, hardware hacks, and other miscellaneous coding pro
       <span class="org"> {{project.org}} </span>
       {{project.desc}}
     </p>
-
-    <p class="tools"> {{project.tools}} </p>
 
   </div>
 

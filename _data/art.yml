@@ -4,25 +4,10 @@
   image: tired.jpg
 -
   align: left
-  image: sucomic.png
--
-  align: right
-  image: ddcomic.png
--
-  align: right
-  image: manwich0.jpg
--
-  align: left
   image: obama.jpg
 -
   align: right
-  image: 19.jpg
--
-  align: left
-  image: bus-sketch.jpg
--
-  align: right
-  image: plus-ultra.jpg
+  image: sb3.jpg
 -
   align: left
   image: study2.JPG
@@ -43,7 +28,7 @@
   image: leslie.jpg
 -
   align: left
-  image: art13.gif
+  image: walk.gif
 -
   align: right
   image: art15.jpg
@@ -57,32 +42,23 @@
   align: right
   image: art9.jpg
 -
-  align: left
-  image: art8.gif
--
   align: right
   image: 17.jpg
 -
-  align: left
-  image: art8.png
--
   align: right
   image: art14.jpg
--
-  align: left
-  image: age-meme.jpg
--
-  align: right
-  image: kayak.jpg
--
-  align: left
-  image: spiderman.jpg
 -
   align: right
   image: art2.png
 -
   align: left
   image: portrait.jpg
+-
+  align: left
+  image: sucomic.png
+-
+  align: right
+  image: ddcomic.png
 -
   align: right
   image: outside.jpg
@@ -123,17 +99,26 @@
   align: right
   image: 20.jpg
 -
-  align: right
-  image: sb3.jpg
--
   align: left
   image: grill.gif
 -
   align: left
   image: bojack.jpg
 -
+  align: left
+  image: eyehands.gif
+-
+  align: right
+  image: koro2.gif
+-
   align: right
   image: mushroom.jpg
+-
+  align: left
+  image: me.jpg
+-
+  align: right
+  image: pup.jpg
 -
   align: right
   image: study7.jpg
@@ -144,5 +129,11 @@
   align: right
   image: koro2.gif
 -
-  align: left
-  image: eyehands.gif
+  link: https://www.instagram.com/p/BbwSZBEh28S/?taken-by=nprinterns
+  image: graphics.gif
+-
+  image: goodbye.jpg
+-
+  image: metro.jpg
+-
+  image: cletter.gif
