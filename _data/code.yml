@@ -152,6 +152,14 @@
   org: NPR
   tags: Design, Hardware
 -
+  link: https://github.com/mazhang2718/self-care-sms
+  image: selfcare.png
+  title: Self Care SMS
+  desc: Built a SMS bot that sends crowdsourced self care messages to people who participate. Text 1 (530) 212-6073 to join! (May not be currently functional due to API/server costs.)
+  tools: JS, Twilio, AWS, MySQL, Flask
+  org: Side Project
+  tags: App, Design
+-
   link: https://github.com/meedan/check-mark
   image: check.png
   title: Check Mark
